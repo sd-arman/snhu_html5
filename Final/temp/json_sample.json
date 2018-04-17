@@ -1,0 +1,590 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_11560.properties,customfield_12900.properties,customfield_11760.properties",
+  "id": "77850",
+  "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850",
+  "key": "MASS-2865",
+  "fields": {
+    "customfield_11160": "1_*:*_1_*:*_132916_*|*_5_*:*_1_*:*_0_*|*_10024_*:*_1_*:*_1611804730",
+    "customfield_11161": null,
+    "customfield_13100": null,
+    "customfield_11560": null,
+    "fixVersions": [],
+    "customfield_13500": null,
+    "customfield_11960": null,
+    "resolution": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/resolution/1",
+      "id": "1",
+      "description": "A fix for this issue is checked into the tree and tested.",
+      "name": "Fixed"
+    },
+    "customfield_12800": null,
+    "lastViewed": null,
+    "customfield_12360": null,
+    "customfield_12760": "{}",
+    "priority": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/priority/2",
+      "iconUrl": "https://emergencycallworks.atlassian.net/images/icons/priorities/critical.svg",
+      "name": "Critical",
+      "id": "2"
+    },
+    "labels": [],
+    "customfield_13603": null,
+    "customfield_13602": null,
+    "customfield_13605": null,
+    "customfield_13604": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [
+      {
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/version/33434",
+        "id": "33434",
+        "description": "",
+        "name": "4.2.7.1",
+        "archived": false,
+        "released": true,
+        "releaseDate": "2017-08-22"
+      }
+    ],
+    "issuelinks": [
+      {
+        "id": "56283",
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/issueLink/56283",
+        "type": {
+          "id": "10001",
+          "name": "Dependency",
+          "inward": "blocks",
+          "outward": "depends on",
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issueLinkType/10001"
+        },
+        "inwardIssue": {
+          "id": "77887",
+          "key": "HW-648",
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77887",
+          "fields": {
+            "summary": "Shrewsbury Limited Fire need new fxs",
+            "status": {
+              "self": "https://emergencycallworks.atlassian.net/rest/api/2/status/6",
+              "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+              "iconUrl": "https://emergencycallworks.atlassian.net/images/icons/statuses/closed.png",
+              "name": "Closed",
+              "id": "6",
+              "statusCategory": {
+                "self": "https://emergencycallworks.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://emergencycallworks.atlassian.net/rest/api/2/priority/4",
+              "iconUrl": "https://emergencycallworks.atlassian.net/images/icons/priorities/minor.svg",
+              "name": "Minor",
+              "id": "4"
+            },
+            "issuetype": {
+              "self": "https://emergencycallworks.atlassian.net/rest/api/2/issuetype/9",
+              "id": "9",
+              "description": "",
+              "iconUrl": "https://emergencycallworks.atlassian.net/secure/viewavatar?size=xsmall&avatarId=11444&avatarType=issuetype",
+              "name": "Procurement",
+              "subtask": false,
+              "avatarId": 11444
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+      "name": "damian.torrez",
+      "key": "damian.torrez",
+      "accountId": "5a9e10fea00c7f2a80155bf2",
+      "emailAddress": "damian.torrez@motorolasolutions.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+      },
+      "displayName": "Damian Torrez",
+      "active": true,
+      "timeZone": "America/Chicago"
+    },
+    "status": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/status/5",
+      "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+      "iconUrl": "https://emergencycallworks.atlassian.net/images/icons/statuses/resolved.png",
+      "name": "Resolved",
+      "id": "5",
+      "statusCategory": {
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [],
+    "customfield_11260": null,
+    "customfield_11261": null,
+    "customfield_11262": null,
+    "customfield_13201": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/customFieldOption/11105",
+      "value": "1: High - Major Functional impact to many users",
+      "id": "11105"
+    },
+    "customfield_11660": null,
+    "customfield_13200": null,
+    "customfield_13203": null,
+    "customfield_13202": null,
+    "customfield_13601": null,
+    "customfield_13600": null,
+    "customfield_13204": null,
+    "customfield_13954": [
+      {
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/customFieldOption/11717",
+        "value": "Single Ring All",
+        "id": "11717"
+      }
+    ],
+    "customfield_12900": null,
+    "customfield_13956": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+      "name": "damian.torrez",
+      "key": "damian.torrez",
+      "accountId": "5a9e10fea00c7f2a80155bf2",
+      "emailAddress": "damian.torrez@motorolasolutions.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+      },
+      "displayName": "Damian Torrez",
+      "active": true,
+      "timeZone": "America/Chicago"
+    },
+    "subtasks": [],
+    "customfield_12460": null,
+    "customfield_10160": "Per GDIT: Diego replaced fxs gateway, gateway reloaded and all lines tested and functioning as expected.  GDIT ticket has been closed.",
+    "reporter": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+      "name": "damian.torrez",
+      "key": "damian.torrez",
+      "accountId": "5a9e10fea00c7f2a80155bf2",
+      "emailAddress": "damian.torrez@motorolasolutions.com",
+      "avatarUrls": {
+        "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+        "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+        "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+      },
+      "displayName": "Damian Torrez",
+      "active": true,
+      "timeZone": "America/Chicago"
+    },
+    "customfield_11771": null,
+    "customfield_11770": "",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10960": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/customFieldOption/11411",
+      "value": "Hardware:Gateway",
+      "id": "11411"
+    },
+    "customfield_13952": null,
+    "customfield_11766": "",
+    "customfield_11765": "",
+    "customfield_11768": "",
+    "customfield_11767": "",
+    "customfield_11769": "",
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/MASS-2865/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "issuetype": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/issuetype/6",
+      "id": "6",
+      "description": "Incident as reported by customer or service engineer.",
+      "iconUrl": "https://emergencycallworks.atlassian.net/secure/viewavatar?size=xsmall&avatarId=11438&avatarType=issuetype",
+      "name": "Incident",
+      "subtask": false,
+      "avatarId": 11438
+    },
+    "customfield_11360": null,
+    "timespent": null,
+    "project": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/project/14420",
+      "id": "14420",
+      "key": "MASS",
+      "name": "State of Massachusetts",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://emergencycallworks.atlassian.net/secure/projectavatar?pid=14420&avatarId=15519",
+        "24x24": "https://emergencycallworks.atlassian.net/secure/projectavatar?size=small&pid=14420&avatarId=15519",
+        "16x16": "https://emergencycallworks.atlassian.net/secure/projectavatar?size=xsmall&pid=14420&avatarId=15519",
+        "32x32": "https://emergencycallworks.atlassian.net/secure/projectavatar?size=medium&pid=14420&avatarId=15519"
+      },
+      "projectCategory": {
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/projectCategory/10000",
+        "id": "10000",
+        "description": "Projects pertaining to service",
+        "name": "Service"
+      }
+    },
+    "customfield_11760": null,
+    "customfield_13300": null,
+    "aggregatetimespent": null,
+    "customfield_11762": "",
+    "customfield_11761": null,
+    "customfield_11764": "",
+    "customfield_11763": "",
+    "customfield_10665": [],
+    "customfield_10666": null,
+    "resolutiondate": "2018-04-02T07:54:06.704-0500",
+    "workratio": -1,
+    "watches": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/MASS-2865/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "created": "2018-03-14T16:08:29.145-0500",
+    "customfield_12560": null,
+    "customfield_10660": null,
+    "customfield_13800": [
+      {
+        "self": "https://emergencycallworks.atlassian.net/rest/api/2/customFieldOption/11600",
+        "value": "CallStationWM",
+        "id": "11600"
+      }
+    ],
+    "updated": "2018-04-02T07:54:06.783-0500",
+    "timeoriginalestimate": null,
+    "customfield_11461": "0|107xmo:",
+    "description": "Initial Email:\r\n{noformat}\r\nFailing FXS \r\nECW Support\r\nWilliams, James H James.H.Williams@gdit.com via motorolasolutions.com \r\nAttachments1:29 PM (1 hour ago)\r\nto ECWSupport \r\nHi ECW,\r\nPlease investigate why these two FXS are failing to spill audio on all ports.\r\n\r\nI am seeing the attached errors in the Message Logs\r\n\r\nGFL-YM Internal Ticket: 13799\r\nSHR-LF Internal Ticket: 13997\r\n\r\nThanks,\r\n\r\n-JT\r\nJames H. Williams III\r\n\r\nSr. Network Engineer\r\nGeneral Dynamics Information Technology\r\nNext Generation 911 NSOC\r\n101 Station Dr.\r\nWestwood , MA 02090\r\nJames.H.Williams@gdit.com\r\nO:781-410-5277\r\n{noformat}",
+    "customfield_13000": null,
+    "customfield_10010": null,
+    "customfield_13401": null,
+    "customfield_13400": null,
+    "timetracking": {},
+    "customfield_10764": "855-626-4911",
+    "customfield_10766": {
+      "self": "https://emergencycallworks.atlassian.net/rest/api/2/customFieldOption/10224",
+      "value": "Phone",
+      "id": "10224"
+    },
+    "attachment": [],
+    "customfield_10768": "GDIT: Shrewsbury",
+    "customfield_13915": null,
+    "customfield_13914": null,
+    "customfield_10769": null,
+    "summary": "13997  Shrewsbury Limited Fire: FXS is failing to spill audio on all ports.",
+    "customfield_12660": null,
+    "customfield_12662": null,
+    "customfield_12661": [],
+    "customfield_12664": null,
+    "customfield_12663": null,
+    "customfield_10762": "GDIT: Shrewsbury Fire",
+    "customfield_12666": null,
+    "customfield_10763": "DL-MA911NOC@GDIT.com",
+    "customfield_12665": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/146305",
+          "id": "146305",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Email Reply:\r\n{noformat}\r\n\r\nDamian Torrez <damian.torrez@motorolasolutions.com>\r\n1:35 PM (1 hour ago)\r\nto James, ECWSupport \r\nGood afternoon James,\r\n\r\nI'm more than happy to investigate these two FXS gateways for you.  Could you please give me the customer names/locations these are associated with, and i'll get the tickets created.\r\n\r\nThank you,\r\n\r\n\r\nDamian (Dom) Torrez\r\nTechnical Application Support Specialist\r\nO: 855-329-1911 opt: 3\r\nE: ecwsupport@motorolasolutions.com\r\nE2: damian.torrez@motorolasolutions.com\r\nCALLWORKS\r\n\r\n\r\n\r\nWilliams, James H\r\n2:24 PM (46 minutes ago)\r\nto Shaun, me, ECWSupport \r\nWe are going to need a 24 hour turn around on these two devices.\r\n\r\nGFL-YM Internal Ticket: 13799\r\n\r\nGreenfield Medcare\r\n\r\n172.21.192.71\r\n\r\n \r\n\r\nSHR-LF Internal Ticket: 13997\r\n\r\nShrewsbury Limited Fire\r\n\r\n172.21.68.71\r\n\r\n \r\n\r\n \r\n\r\nJames H. Williams III\r\n\r\nSr. Network Engineer\r\n\r\nGeneral Dynamics Information Technology\r\n\r\nNext Generation 911 NSOC\r\n\r\n101 Station Dr.\r\n\r\nWestwood , MA 02090\r\n\r\nJames.H.Williams@gdit.com\r\n\r\nO:781-410-5277\r\n\r\n \r\n\r\nFrom: Damian Torrez [mailto:damian.torrez@motorolasolutions.com] \r\nSent: Wednesday, March 14, 2018 3:35 PM\r\nTo: Williams, James H <James.H.Williams@GDIT.com>\r\nCc: ecwsupport@motorolasolutions.com\r\nSubject: Re: Failing FXS\r\n\r\n \r\n\r\nGood afternoon James,\r\n\r\n \r\n\r\nI'm more than happy to investigate these two FXS gateways for you.  Could you please give me the customer names/locations these are associated with, and i'll get the tickets created.\r\n\r\n \r\n\r\nThank you,\r\n\r\n \r\n\r\n\r\n\r\nDamian (Dom) Torrez\r\n\r\nTechnical Application Support Specialist\r\n\r\nO: 855-329-1911 opt: 3\r\n\r\nE: ecwsupport@motorolasolutions.com\r\n\r\nE2: damian.torrez@motorolasolutions.com\r\n\r\nCALLWORKS\r\n\r\nImage removed by sender.\r\n\r\n\r\n\r\nDamian Torrez <damian.torrez@motorolasolutions.com>\r\n3:10 PM (1 minute ago)\r\nto DL-MA911, James, ECWSupport, Shaun \r\nJames,\r\nI've created two CallWorks tickets to handle the two FXO's that are having problems.\r\n\r\nCallWorks Ticket: MASS-2864 has been created to track and investigate:\r\nGFL-YM Internal Ticket: 13799\r\n\r\nGreenfield Medcare\r\n\r\n172.21.192.71\r\n\r\n\r\nCallWorks Ticket: MASS-2865 has been created to track and investigate: \r\nSHR-LF Internal Ticket: 13997\r\n\r\nShrewsbury Limited Fire\r\n\r\n172.21.68.71\r\n\r\n\r\nThanks, \r\n\r\nDamian (Dom) Torrez\r\nTechnical Application Support Specialist\r\nO: 855-329-1911 opt: 3\r\nE: ecwsupport@motorolasolutions.com\r\nE2: damian.torrez@motorolasolutions.com\r\nCALLWORKS\r\n\r\n{noformat}",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-14T16:11:34.126-0500",
+          "updated": "2018-03-14T16:11:34.126-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/146306",
+          "id": "146306",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "*NOTE:* the initial email request has generated 2 tickets:\r\nThis ticket will be for:\r\n\r\nSHR-LF Internal Ticket: 13997\r\nShrewsbury Limited Fire\r\n172.21.68.71",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-14T16:12:45.445-0500",
+          "updated": "2018-03-14T16:12:45.445-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/146324",
+          "id": "146324",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Called James Williams: 781-410-5277\r\n\r\nLeft him a voicemail.  Also stated that I'd call the general gdit number to try and get clarity on whether this needs to be new equipment or a troubleshooting and fix.",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-14T17:22:02.844-0500",
+          "updated": "2018-03-14T17:22:02.844-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/146327",
+          "id": "146327",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Calling GDIT:\r\n\r\nspeaking with Joe.\r\n\r\nSean, responded: FXS replacement. Verified by Joe.\r\n\r\nSaid to contact JT about the 24 hour turnaround time tomorrow by 8am eastern time.\r\n\r\nCreating EQP ticket and linking.\r\n\r\n",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-14T17:32:31.999-0500",
+          "updated": "2018-03-14T17:32:52.914-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/146380",
+          "id": "146380",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Equipment info from ct:\r\nIP: 172.21.68.71\r\nLocation: shrewsburylf\r\nMAC: 00:90:8f:92:b1:ff\r\nHostComp: shr-lf-fxs-001\r\nType: AUDIOCODES_MP114_FXS\r\nClass: FXS_RECORD\r\n\r\n{noformat}\r\n2967         shr-lf-fxs-001            RECORDER GATEWAY     shrewsburylf    AudioCodes 4-Port FXS Gateway    00:90:8f:92:b1:ff   172.21.68.71\r\n{noformat}\r\n\r\n{noformat}\r\n43530                 <Gateway>\r\n 43531                     <cluster>00000000-0000-0000-0000-000000000052</cluster>\r\n 43532                     <location>shrewsburylf</location>\r\n 43533                     <ipAddress>172.21.68.71</ipAddress>\r\n 43534                     <macAddress>00:90:8f:92:b1:ff</macAddress>\r\n 43535                     <SwitchPorts>\r\n 43536                         <SwitchPort>\r\n 43537                             <networkSwitch>switch-shr-lf-1</networkSwitch>\r\n 43538                             <port>20</port>\r\n 43539                         </SwitchPort>\r\n 43540                     </SwitchPorts>\r\n 43541                     <PowerSwitchOutlets>\r\n 43542                         <PowerSwitchOutlet>\r\n 43543                             <powerSwitch>pdu-shr-lf-1</powerSwitch>\r\n 43544                             <outlets>12</outlets>\r\n 43545                         </PowerSwitchOutlet>\r\n 43546                     </PowerSwitchOutlets>\r\n 43547                     <SDSPort>\r\n 43548                         <serialDeviceServer>sds-shrewsburylf-msi-1</serialDeviceServer>\r\n 43549                         <port>6</port>\r\n 43550                     </SDSPort>\r\n 43551                     <hostnameComponent>shr-lf-fxs-001</hostnameComponent>\r\n 43552                     <type>AUDIOCODES_MP114_FXS</type>\r\n 43553                     <gatewayClass>FXS_RECORD</gatewayClass>\r\n 43554                     <RecorderLines>\r\n 43555                         <RecorderLine>\r\n 43556                             <port>1</port>\r\n 43557                             <positionNumber>781</positionNumber>\r\n 43558                         </RecorderLine>\r\n 43559                         <RecorderLine>\r\n 43560                             <port>2</port>\r\n 43561                             <positionNumber>1020</positionNumber>\r\n 43562                         </RecorderLine>\r\n 43563                         <RecorderLine>\r\n 43564                             <port>3</port>\r\n 43565                             <positionNumber>1021</positionNumber>\r\n 43566                         </RecorderLine>\r\n 43567                         <RecorderLine>\r\n 43568                             <port>4</port>\r\n 43569                             <positionNumber>1022</positionNumber>\r\n 43570                         </RecorderLine>\r\n 43571                     </RecorderLines>\r\n 43572                 </Gateway>\r\n{noformat}",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-15T08:43:33.883-0500",
+          "updated": "2018-03-15T08:47:39.962-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/148965",
+          "id": "148965",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Tony @ gdit:\r\n\r\nresister pack installed, worked with fxs but audio still not being sent to any of the four lines.\r\n\r\nContacting the field engineer to get more detailed update...\r\nNick will be going out tomorrow to physically replace the fxs gateway.\r\n\r\n",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-03-29T15:12:12.231-0500",
+          "updated": "2018-03-29T15:16:09.502-0500"
+        },
+        {
+          "self": "https://emergencycallworks.atlassian.net/rest/api/2/issue/77850/comment/149362",
+          "id": "149362",
+          "author": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Just called GDIT: \r\nSpoke with Bob, he stated that Diego went out and replaced the FXS gateway.  All lines testing and functioning.\r\nGDIT ticket has been closed.  ",
+          "updateAuthor": {
+            "self": "https://emergencycallworks.atlassian.net/rest/api/2/user?username=damian.torrez",
+            "name": "damian.torrez",
+            "key": "damian.torrez",
+            "accountId": "5a9e10fea00c7f2a80155bf2",
+            "emailAddress": "damian.torrez@motorolasolutions.com",
+            "avatarUrls": {
+              "48x48": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=48&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3FavatarId%3D10152%26noRedirect%3Dtrue",
+              "24x24": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=24&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "16x16": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=16&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dxsmall%26avatarId%3D10152%26noRedirect%3Dtrue",
+              "32x32": "https://avatar-cdn.atlassian.com/00fd48e61e2d5c0da95e085c9de5ccf6?s=32&d=https%3A%2F%2Femergencycallworks.atlassian.net%2Fsecure%2Fuseravatar%3Fsize%3Dmedium%26avatarId%3D10152%26noRedirect%3Dtrue"
+            },
+            "displayName": "Damian Torrez",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2018-04-02T07:52:49.821-0500",
+          "updated": "2018-04-02T07:52:49.821-0500"
+        }
+      ],
+      "maxResults": 7,
+      "total": 7,
+      "startAt": 0
+    }
+  }
+}
